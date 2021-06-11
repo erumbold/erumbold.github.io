@@ -13,8 +13,9 @@
   <p></p>
 
   <h3>What is the <i>GuzhengAir</i></h3>
-    <p>As the name suggests, the <i>GuzhengAir</i> is an electronic instrument designed to simulate the playstyle and unique sound of a traditional Chinese guzheng. To play the <i>GuzhengAir</i>, place a hand or finger (typically the thumb) in front of the main ultrasonic sensor. Then, when the finger is lifted, a sample of a single guzheng note is played (to resemble plucking a string).</p>
-    <p>The instrument is tuned to the G major pentatonic scale, range D4-B5; and the pitch of the sample is shifted according to the finger's proximity to the sensor before "plucking"- lower notes are played closer to the sensor, whereas higher notes are played closer to the player.</p>
+    <p>As the name suggests, the <i>GuzhengAir</i> is an electronic instrument designed to simulate the playstyle and unique sound of a traditional Chinese guzheng. To play the <i>GuzhengAir</i>, place a hand or finger (typically the thumb) in front of the main ultrasonic sensor. Then, when the finger is lifted, resembling the motion of plucking a string, a sample of a guzheng note is played.</p>
+    <p>The instrument is tuned to the G major pentatonic scale, range D4-D5; and the pitch of the sample is shifted according to the finger's proximity to the sensor before "plucking"- lower notes are played closer to the sensor, whereas higher notes are played closer to the player.</p>
+
   <h3>Why make the <i>GuzhengAir</i></h3>
     <p>When figuring out what instrument I wanted to create, I considered many ideas. I was inspired by existing gestural instruments, so I decided to create an instrument with its own unique gesture. I set my mind on a plucking motion and realized I could reimagine the guzheng.</p>
     <p>Throughout my life, I have pursued many ways of connecting with my Chinese heritage; part of this was discovering a love of traditional Chinese instruments and music. In my life, I have learned many instruments, of both Western and Eastern origin, and I would have loved to learn the guzheng. But there are a number of reasons why I was less successful with the guzheng than other instruments:
@@ -25,15 +26,22 @@
       </ul>
       In addition to my desire to create a unique gesture, I aim to solve these issues with my design of the <i>GuzhengAir</i>.
     </p>
+
   <h3>My Process</h3>
-    <p></p>
+    <p>My first step was to make pitch shifts over a continuous sine wave using the two ultrasonic sensors, not dissimilar to a theremin. The main sensor, which faces the player, is used to determine pitch; the playable pitches were limited to the G major pentatonic scale. The secondary sensor, which faces upward, bends the pitch determined from the main sensor up to 100 cents. This is to mimic the other half of a traditional guzheng, which is used to play bends and vibrato.</p>
+    <p>After figuring out the pitch shift mechanics, I replaced the sine wave with an audio sample of a guzheng playing D4. I looped the sample for simplicity at the time. In this step, I realized that the overtones of the original note (D4) were also being shifted, and therefore becoming distorted. A simple low-pass filter was effective enough to solve this issue.</p>
+    <p>The next issue to tackle was the looping. The motivation of this instrument was the unique play gesture, which at this stage of development was not being used. Adding a both a <i>select</i> object and a <i>onebang</i> object to the Max patch made it so the guzheng sample would only play once when my hand moved out of the main ultrasonic sensor's range.</p>
+
   <h3>Demo</h3>
-    <video width="640" height="480" controls>
+    <p>Below is a short demonstration of the <i>GuzhengAir</i> being played.</p>
+    <video width="640" height="360" controls>
       <source src="GuzhengAir v1.1.mov" type="video/mp4">
       Your browser does not support video tag.
     </video>
+
   <h3>Code</h3>
   <p>Arduino code and the Max Patcher for the <i>GuzhengAir</i> can be found in <a href="https://github.com/erumbold/GuzhengAir">this GitHub repository</a>.</p>
+
   <h3>Next Steps</h3>
     <p>
       As I continue to work on the <i>GuzhengAir</i>, I have many additions and improvements that I want to implement:
@@ -41,8 +49,8 @@
         <li>Exchange the guzheng sample for a generated signal that resembles a guzheng. This should make the pitch shifting easier and sound more realistic, especially for the higher pitches played on the current model that often get distorted.</li>
         <li>Add capabilities to play trills and glissandos - techniques and sounds that are characteristic of the guzheng.</li>
         <li>Add the ability to play multiple pitches at once.</li>
-        <li>Add octave-switching functionality. (The guzheng typically spans 4 octaves, wheras the <i>GuzhengAir</i> currently covers 2 octaves)
+        <li>Add octave-switching functionality. (The guzheng typically spans 4 octaves, wheras the <i>GuzhengAir</i> currently covers one)
       </ol>
-      I will continue to update this page as these next steps are met.
+      I will continue to update this page as this project develops.
     </p>
 </div></body></html>
