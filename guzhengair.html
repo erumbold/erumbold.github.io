@@ -13,7 +13,7 @@
   <p></p>
 
   <h3>What is the <i>GuzhengAir</i></h3>
-    <p>As the name suggests, the <i>GuzhengAir</i> is an electronic instrument designed to simulate the playstyle and unique sound of a traditional Chinese guzheng. To play the <i>GuzhengAir</i>, place a hand or finger (typically the thumb) in front of the main ultrasonic sensor. Then, when the finger is lifted, a note is played (to resemble plucking a string). The instrument is tuned to the G major pentatonic scale, range D4-B5; and the pitch that is played is determined by the finger's proximity to the sensor - lower notes are played closer to the sensor, whereas higher notes are played closer to the player.</p>
+    <p>As the name suggests, the <i>GuzhengAir</i> is an electronic instrument designed to simulate the playstyle and unique sound of a traditional Chinese guzheng. To play the <i>GuzhengAir</i>, place a hand or finger (typically the thumb) in front of the main ultrasonic sensor. Then, when the finger is lifted, a sample of a single guzheng note is played (to resemble plucking a string). The instrument is tuned to the G major pentatonic scale, range D4-B5; and the pitch of the sample is shifted according to the finger's proximity to the sensor before "plucking"- lower notes are played closer to the sensor, whereas higher notes are played closer to the player.</p>
   <h3>Why make the <i>GuzhengAir</i></h3>
     <p>When figuring out what instrument I wanted to create, I considered many ideas. I was inspired by existing gestural instruments, so I decided to create an instrument with its own unique gesture. I set my mind on a plucking motion and realized I could reimagine the guzheng.</p>
     <p>Throughout my life, I have pursued many ways of connecting with my Chinese heritage; part of this was discovering a love of traditional Chinese instruments and music. In my life, I have learned many instruments, of both Western and Eastern origin, and I would have loved to learn the guzheng. But there are a number of reasons why I was less successful with the guzheng than other instruments:
@@ -29,24 +29,16 @@
   <h3>Demo</h3>
     <p></p>
   <h3>Code</h3>
-  <p>
-    <a class="btn btn-secondary" data-toggle="collapse" href="#ArduinoCode" role="button" aria-expanded="false" aria-controls="arduinoCode">
-      Arduino Code
-    </a>
-    <a class="btn btn-secondary" data-toggle="collapse" href="#MaxCode" role="button" aria-expanded="false" aria-controls="maxCode">
-      Max Patch
-    </a>
-  </p>
-  <div class="collapse" id="arduinoCode">
-    <div class="card card-body">
-      arduino code
-    </div>
-  </div>
-  <div class="collapse" id="maxCode">
-    <div class="card card-body">
-      max code
-    </div>
-  </div>
+  <p>Arduino code and the Max Patcher for the <i>GuzhengAir</i> can be found in <a href="https://github.com/erumbold/GuzhengAir">this GitHub repository</a>.</p>
   <h3>Next Steps</h3>
-    <p></p>
+    <p>
+      As I continue to work on the <i>GuzhengAir</i>, I have many additions and improvements that I want to implement:
+      <ol>
+        <li>Exchange the guzheng sample for a generated signal that resembles a guzheng. This should make the pitch shifting easier and sound more realistic, especially for the higher pitches played on the current model that often get distorted.</li>
+        <li>Add capabilities to play trills and glissandos - techniques and sounds that are characteristic of the guzheng.</li>
+        <li>Add the ability to play multiple pitches at once.</li>
+        <li>Add octave-switching functionality. (The guzheng typically spans 4 octaves, wheras the <i>GuzhengAir</i> currently covers 2 octaves)
+      </ol>
+      I will continue to update this page as these next steps are met.
+    </p>
 </div></body></html>
