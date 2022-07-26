@@ -6,48 +6,171 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <div class="container">
             <h1 class="display-4 text-center">A Critical Analysis of Objective Evaluation Metrics for Music Source Separation Quality</h1>
-            <hr class="my-4">
-
+            
             <h5>Erika Rumbold | <a href="mailto:erumbold@u.northwestern.edu?subject=Masters Thesis">erumbold@u.northwestern.edu</a> | Thesis for M.S. in Computer Science | Advised by Prof. Bryan Pardo</h5>
-
+            
+            <hr class="my-4">
             <p></p>
 
-            <h3>Overview</h3>
+            <h2>Overview</h2>
             <div class="container">
                 <p>
-                    Here you will find the source separated audio data, and the subjective evaluation data of that audio from my thesis. For more information on this data, please refer to my thesis document.
+                    Here you will find the source separated audio data, and the subjective evaluation data of that audio from my thesis. For more information on this data, please refer to my <a href="/downloads/thesis_7-25.pdf" download>thesis document</a>.
                 </p>
             </div>
 
-            <h3>Separated Audio</h3>
+            <h2>Mean Opinion Scores</h2>
             <div class="container">
-                For these experiments, I used a 30-song subset of the MUSDB18 dataset for music source separation. I source separated each song using these five source separation models:
+                <p>
+                    For these experiments, I used a 30-song subset of the MUSDB18 dataset for music source separation. I source separated each song using these five source separation models:
                 <ol>
                     <li>Hybrid Demucs [<a href="#demucs3">1</a>]</li>
                     <li>Demucs-Extra [<a href="#demucs2">2</a>]</li>
                     <li>D3Net [<a href="#d3net">3</a>]</li>
                     <li>Spleeter [<a href="#spleeter">4</a>]</li>
-                    <li>Source SeparationWavenet [<a href="#sswavenet">5</a>]</li>
+                    <li>Source Separation Wavenet [<a href="#sswavenet">5</a>]</li>
                 </ol>
-                Below, I provide the original song mixture as well as the separated stems <b>bass</b>, <b>drums</b>, and <b>vocals</b>. I did not use the <b>other</b> stem in my experiments.
+                The Mean Opinion Scores for this data can be downloaded <a href="/downloads/mos_ratings.csv" download>here</a>. There are two scores for each example, one related to "presence of <b>Artifacts</b>" and one related to "presence of <b>Other Instruments</b>."
+                </p>
             </div>
 
+            <h2>Separated Audio</h2>
+            <div class="container">
+                <p>
+                    <h4>Audio examples will be uploaded soon.</h4>
+                </p>
+            </div>
+
+            <!-- <div> -->
+                <!-- Below, I provide the original, ground-truth version of each example as well as the separated stems <b>bass</b>, <b>drums</b>, and <b>vocals</b>. I did not use the <b>other</b> stem in my experiments.
+                    
+            <h4 class="text-center">Bass</h4>
             <table>
                 <tr>
-                    <th>Mixture</th>
-                    <th>Hybrid Demucs</th>
-                    <th>Demucs-Extra</th>
-                    <th>Spleeter</th>
-                    <th>Source Separation Wavenet</th>
+                    <th class="text-center">Track</th>
+                    <th class="text-center">Original</th>
+                    <th class="text-center">Hybrid Demucs</th>
+                    <th class="text-center">Demucs-Extra</th>
+                    <th class="text-center">Spleeter</th>
+                    <th class="text-center">Source Separation Wavenet</th>
+                </tr>
+                <tr>
+                    <td>
+                        <b>1</b>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
                 </tr>
             </table>
 
-            | Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+            <h4 class="text-center">Drums</h4>
+            <table>
+                <tr>
+                    <th class="text-center">Track</th>
+                    <th class="text-center">Original</th>
+                    <th class="text-center">Hybrid Demucs</th>
+                    <th class="text-center">Demucs-Extra</th>
+                    <th class="text-center">Spleeter</th>
+                    <th class="text-center">Source Separation Wavenet</th>
+                </tr>
+                <tr>
+                    <td>
+                        <b>1</b>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                </tr>
+            </table>
 
-            <h3>References</h3>
+            <h4 class="text-center">Vocals</h4>
+            <table>
+                <tr>
+                    <th class="text-center">Track</th>
+                    <th class="text-center">Original</th>
+                    <th class="text-center">Hybrid Demucs</th>
+                    <th class="text-center">Demucs-Extra</th>
+                    <th class="text-center">Spleeter</th>
+                    <th class="text-center">Source Separation Wavenet</th>
+                </tr>
+                <tr>
+                    <td>
+                        <b>1</b>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="" type="audio/wav">
+                          </audio>
+                    </td>
+                </tr>
+            </table> -->
+            <hr class="my-4">
+            <h2>References</h2>
             <div class="container">
                 <ol>
                     <li id="demucs3">Défossez, A. <a href="https://arxiv.org/pdf/2111.03600.pdf">Hybrid spectrogram and waveform source separation.</a> <i>arXiv preprint
