@@ -1,0 +1,294 @@
+Song,Stem,Separator,MOS (Artifacts),MOS (Other Instruments
+Actions-OneMinuteSmile,drums,Source Separation Wavenet,3.0,2.9
+Actions-OneMinuteSmile,drums,D3Net,4.2,3.923076923076923
+Actions-OneMinuteSmile,drums,Spleeter,2.2222222222222223,2.625
+Actions-OneMinuteSmile,vocals,Source Separation Wavenet,4.333333333333333,4.444444444444445
+Actions-OneMinuteSmile,drums,Demucs-Extra,2.8333333333333335,2.1666666666666665
+Actions-OneMinuteSmile,drums,Hybrid Demucs,3.2,3.4
+Actions-OneMinuteSmile,vocals,Spleeter,3.25,3.6666666666666665
+Actions-OneMinuteSmile,bass,Hybrid Demucs,3.3529411764705883,3.9444444444444446
+Actions-OneMinuteSmile,vocals,Hybrid Demucs,3.4,2.2
+Actions-OneMinuteSmile,bass,Source Separation Wavenet,3.7142857142857144,2.875
+AlJames-SchoolboyFacination,vocals,Source Separation Wavenet,3.0,3.25
+AlJames-SchoolboyFacination,bass,Demucs-Extra,2.0,3.0
+AlJames-SchoolboyFacination,bass,Hybrid Demucs,3.0,2.375
+AlJames-SchoolboyFacination,drums,D3Net,2.5,3.8
+AlJames-SchoolboyFacination,vocals,Hybrid Demucs,2.923076923076923,3.25
+AlJames-SchoolboyFacination,bass,D3Net,3.0,2.0
+AlJames-SchoolboyFacination,drums,Demucs-Extra,2.857142857142857,3.0
+AlJames-SchoolboyFacination,vocals,Demucs-Extra,2.3333333333333335,1.8888888888888888
+AlJames-SchoolboyFacination,drums,Spleeter,4.0,1.2
+AlJames-SchoolboyFacination,bass,Source Separation Wavenet,4.0,1.5
+AngelsInAmplifiers-I'mAlright,bass,Source Separation Wavenet,4.2,4.142857142857143
+AngelsInAmplifiers-I'mAlright,drums,Demucs-Extra,4.0,4.142857142857143
+AngelsInAmplifiers-I'mAlright,bass,Spleeter,3.2857142857142856,3.0
+AngelsInAmplifiers-I'mAlright,bass,Hybrid Demucs,2.75,3.0
+AngelsInAmplifiers-I'mAlright,vocals,Demucs-Extra,3.0,2.8
+AngelsInAmplifiers-I'mAlright,vocals,Source Separation Wavenet,3.0,3.375
+AngelsInAmplifiers-I'mAlright,drums,Source Separation Wavenet,2.75,2.8
+AngelsInAmplifiers-I'mAlright,vocals,Hybrid Demucs,3.0,3.375
+AngelsInAmplifiers-I'mAlright,drums,D3Net,4.0,3.8333333333333335
+AngelsInAmplifiers-I'mAlright,drums,Hybrid Demucs,3.857142857142857,1.5714285714285714
+AngelsInAmplifiers-I'mAlright,vocals,Spleeter,4.428571428571429,2.1666666666666665
+AngelsInAmplifiers-I'mAlright,bass,D3Net,3.25,3.2857142857142856
+AngelsInAmplifiers-I'mAlright,drums,Spleeter,2.357142857142857,2.0714285714285716
+AngelsInAmplifiers-I'mAlright,bass,Demucs-Extra,1.75,2.5555555555555554
+Arise-RunRunRun,drums,D3Net,2.6666666666666665,1.875
+Arise-RunRunRun,vocals,Spleeter,2.5,2.5
+Arise-RunRunRun,vocals,D3Net,3.0,3.4
+Arise-RunRunRun,vocals,Source Separation Wavenet,2.7777777777777777,2.6666666666666665
+Arise-RunRunRun,drums,Demucs-Extra,3.2,3.0
+Arise-RunRunRun,vocals,Demucs-Extra,3.6666666666666665,3.2
+Arise-RunRunRun,bass,Hybrid Demucs,2.6,3.0
+Arise-RunRunRun,bass,Demucs-Extra,2.0,2.857142857142857
+Arise-RunRunRun,drums,Hybrid Demucs,2.3846153846153846,3.076923076923077
+Arise-RunRunRun,vocals,Hybrid Demucs,3.5,2.75
+BKS-TooMuch,vocals,D3Net,2.933333333333333,2.9285714285714284
+BKS-TooMuch,drums,Hybrid Demucs,2.5714285714285716,2.2857142857142856
+BKS-TooMuch,bass,Demucs-Extra,2.7,3.1
+BKS-TooMuch,bass,Source Separation Wavenet,3.3333333333333335,3.0
+BKS-TooMuch,drums,Spleeter,3.142857142857143,4.285714285714286
+BKS-TooMuch,bass,Hybrid Demucs,2.7142857142857144,2.5
+BenCarrigan-We'llTalkAboutItAllTonight,bass,Demucs-Extra,2.8333333333333335,2.4285714285714284
+BenCarrigan-We'llTalkAboutItAllTonight,vocals,Demucs-Extra,3.7058823529411766,3.5
+BenCarrigan-We'llTalkAboutItAllTonight,vocals,Source Separation Wavenet,3.0,2.111111111111111
+BenCarrigan-We'llTalkAboutItAllTonight,drums,Spleeter,3.857142857142857,3.3333333333333335
+BenCarrigan-We'llTalkAboutItAllTonight,drums,Demucs-Extra,3.8,4.2
+BenCarrigan-We'llTalkAboutItAllTonight,drums,Hybrid Demucs,3.2857142857142856,2.75
+BenCarrigan-We'llTalkAboutItAllTonight,bass,Hybrid Demucs,2.5,2.4761904761904763
+BenCarrigan-We'llTalkAboutItAllTonight,bass,D3Net,3.769230769230769,2.75
+BenCarrigan-We'llTalkAboutItAllTonight,bass,Source Separation Wavenet,3.9285714285714284,3.2666666666666666
+BenCarrigan-We'llTalkAboutItAllTonight,bass,Spleeter,2.0,2.75
+BenCarrigan-We'llTalkAboutItAllTonight,vocals,Hybrid Demucs,3.5384615384615383,2.9285714285714284
+BenCarrigan-We'llTalkAboutItAllTonight,vocals,Spleeter,3.4285714285714284,2.7142857142857144
+BenCarrigan-We'llTalkAboutItAllTonight,vocals,D3Net,2.7142857142857144,4.142857142857143
+Buitraker-RevoX,bass,Source Separation Wavenet,3.0,3.888888888888889
+Buitraker-RevoX,bass,Spleeter,3.2,3.8
+Buitraker-RevoX,vocals,Spleeter,4.045454545454546,3.2857142857142856
+Buitraker-RevoX,bass,Hybrid Demucs,2.0,2.8333333333333335
+Buitraker-RevoX,vocals,Hybrid Demucs,3.4285714285714284,3.7142857142857144
+Buitraker-RevoX,vocals,Source Separation Wavenet,3.8,3.7
+Buitraker-RevoX,vocals,Demucs-Extra,2.0,2.0
+Buitraker-RevoX,vocals,D3Net,3.6666666666666665,3.6666666666666665
+Buitraker-RevoX,drums,D3Net,3.9545454545454546,3.3333333333333335
+CarlosGonzalez-APlaceForUs,drums,Source Separation Wavenet,3.5714285714285716,3.857142857142857
+CarlosGonzalez-APlaceForUs,drums,Demucs-Extra,3.909090909090909,3.2142857142857144
+CarlosGonzalez-APlaceForUs,vocals,Source Separation Wavenet,4.0,3.7777777777777777
+CarlosGonzalez-APlaceForUs,vocals,Hybrid Demucs,3.5714285714285716,4.166666666666667
+CarlosGonzalez-APlaceForUs,drums,Spleeter,3.6666666666666665,3.111111111111111
+CarlosGonzalez-APlaceForUs,bass,Source Separation Wavenet,3.4615384615384617,2.5625
+CarlosGonzalez-APlaceForUs,drums,D3Net,3.0526315789473686,3.0
+CarlosGonzalez-APlaceForUs,bass,Spleeter,3.5714285714285716,3.375
+CarlosGonzalez-APlaceForUs,vocals,Spleeter,4.2,4.142857142857143
+CarlosGonzalez-APlaceForUs,bass,Demucs-Extra,2.375,1.8571428571428572
+CarlosGonzalez-APlaceForUs,bass,D3Net,2.2,3.857142857142857
+CarlosGonzalez-APlaceForUs,bass,Hybrid Demucs,2.111111111111111,2.2222222222222223
+EndaReilly-CurAnLongAgSeol,drums,D3Net,3.0,2.5
+EndaReilly-CurAnLongAgSeol,drums,Demucs-Extra,4.142857142857143,3.375
+EndaReilly-CurAnLongAgSeol,drums,Spleeter,1.4285714285714286,1.4285714285714286
+EndaReilly-CurAnLongAgSeol,vocals,D3Net,3.9375,3.388888888888889
+EndaReilly-CurAnLongAgSeol,drums,Hybrid Demucs,3.7142857142857144,3.0
+EndaReilly-CurAnLongAgSeol,vocals,Hybrid Demucs,3.5714285714285716,2.5714285714285716
+EndaReilly-CurAnLongAgSeol,vocals,Source Separation Wavenet,3.2,2.933333333333333
+EndaReilly-CurAnLongAgSeol,bass,Source Separation Wavenet,3.0,2.4285714285714284
+EndaReilly-CurAnLongAgSeol,drums,Source Separation Wavenet,3.909090909090909,3.0
+Forkupines-Semantics,drums,Spleeter,4.0,3.857142857142857
+Forkupines-Semantics,drums,Demucs-Extra,3.0,4.166666666666667
+Forkupines-Semantics,vocals,Hybrid Demucs,2.857142857142857,2.875
+Forkupines-Semantics,vocals,Spleeter,2.5555555555555554,3.2941176470588234
+Forkupines-Semantics,drums,Source Separation Wavenet,3.4285714285714284,3.2666666666666666
+Forkupines-Semantics,bass,Source Separation Wavenet,3.5,3.0
+HollowGround-IllFate,vocals,Demucs-Extra,2.888888888888889,4.0
+HollowGround-IllFate,drums,Demucs-Extra,2.090909090909091,2.5833333333333335
+HollowGround-IllFate,vocals,Spleeter,4.0,2.5
+HollowGround-IllFate,drums,Source Separation Wavenet,2.8,3.3333333333333335
+HollowGround-IllFate,bass,Demucs-Extra,3.857142857142857,2.7142857142857144
+HollowGround-IllFate,bass,Spleeter,3.6666666666666665,2.6666666666666665
+HollowGround-IllFate,drums,Hybrid Demucs,2.7857142857142856,2.6666666666666665
+HollowGround-IllFate,vocals,Source Separation Wavenet,4.4,4.142857142857143
+HollowGround-IllFate,bass,Hybrid Demucs,3.2,3.2
+Juliet'sRescue-Heartbeats,drums,Source Separation Wavenet,4.166666666666667,2.25
+Juliet'sRescue-Heartbeats,bass,Demucs-Extra,2.8461538461538463,3.0
+Juliet'sRescue-Heartbeats,drums,Demucs-Extra,2.0,3.1666666666666665
+Juliet'sRescue-Heartbeats,bass,Spleeter,2.2857142857142856,2.75
+Juliet'sRescue-Heartbeats,vocals,Demucs-Extra,2.75,3.2
+Juliet'sRescue-Heartbeats,vocals,Spleeter,4.0,3.375
+Juliet'sRescue-Heartbeats,vocals,Hybrid Demucs,3.857142857142857,2.2857142857142856
+Juliet'sRescue-Heartbeats,vocals,D3Net,4.142857142857143,2.7142857142857144
+LittleChicago'sFinest-MyOwn,bass,Source Separation Wavenet,3.375,3.6470588235294117
+LittleChicago'sFinest-MyOwn,bass,Hybrid Demucs,2.4761904761904763,3.0434782608695654
+LittleChicago'sFinest-MyOwn,vocals,Demucs-Extra,3.4,2.8
+LittleChicago'sFinest-MyOwn,vocals,D3Net,4.428571428571429,3.875
+LittleChicago'sFinest-MyOwn,drums,Spleeter,3.25,3.4
+LittleChicago'sFinest-MyOwn,vocals,Source Separation Wavenet,3.3333333333333335,3.6
+LittleChicago'sFinest-MyOwn,vocals,Hybrid Demucs,3.5,3.857142857142857
+LittleChicago'sFinest-MyOwn,vocals,Spleeter,1.8,3.6
+LittleChicago'sFinest-MyOwn,drums,Source Separation Wavenet,2.8461538461538463,2.6923076923076925
+LittleChicago'sFinest-MyOwn,bass,Spleeter,2.2,3.75
+LittleChicago'sFinest-MyOwn,bass,Demucs-Extra,3.625,4.285714285714286
+LittleChicago'sFinest-MyOwn,drums,Demucs-Extra,4.3,2.6
+LouisCressyBand-GoodTime,bass,Demucs-Extra,1.9285714285714286,2.1875
+LouisCressyBand-GoodTime,bass,D3Net,4.375,4.444444444444445
+LouisCressyBand-GoodTime,drums,D3Net,4.086956521739131,3.217391304347826
+LouisCressyBand-GoodTime,drums,Source Separation Wavenet,4.181818181818182,4.3076923076923075
+LouisCressyBand-GoodTime,vocals,Spleeter,3.4,3.7142857142857144
+LouisCressyBand-GoodTime,bass,Spleeter,4.0,3.4285714285714284
+LouisCressyBand-GoodTime,vocals,Demucs-Extra,2.1666666666666665,4.333333333333333
+LouisCressyBand-GoodTime,bass,Source Separation Wavenet,3.7777777777777777,3.6363636363636362
+LouisCressyBand-GoodTime,vocals,D3Net,3.769230769230769,3.857142857142857
+LouisCressyBand-GoodTime,drums,Demucs-Extra,3.6,2.2
+LouisCressyBand-GoodTime,drums,Hybrid Demucs,3.1666666666666665,3.5384615384615383
+LouisCressyBand-GoodTime,vocals,Source Separation Wavenet,3.217391304347826,3.125
+LyndseyOllard-CatchingUp,vocals,Spleeter,2.4,4.142857142857143
+LyndseyOllard-CatchingUp,drums,D3Net,2.2,3.2
+LyndseyOllard-CatchingUp,vocals,D3Net,2.25,3.0
+LyndseyOllard-CatchingUp,vocals,Hybrid Demucs,3.6153846153846154,2.2142857142857144
+LyndseyOllard-CatchingUp,bass,Hybrid Demucs,3.269230769230769,3.4193548387096775
+LyndseyOllard-CatchingUp,bass,Spleeter,3.0,2.8823529411764706
+LyndseyOllard-CatchingUp,bass,Demucs-Extra,3.7857142857142856,3.769230769230769
+LyndseyOllard-CatchingUp,drums,Spleeter,2.0,2.2
+LyndseyOllard-CatchingUp,drums,Source Separation Wavenet,4.0,3.8095238095238093
+MotorTapes-Shore,vocals,Source Separation Wavenet,3.6363636363636362,3.3636363636363638
+MotorTapes-Shore,drums,Hybrid Demucs,3.586206896551724,3.607142857142857
+MotorTapes-Shore,drums,D3Net,3.142857142857143,3.875
+MotorTapes-Shore,drums,Demucs-Extra,4.555555555555555,4.0
+MotorTapes-Shore,vocals,Spleeter,2.533333333333333,2.7333333333333334
+MotorTapes-Shore,bass,Demucs-Extra,3.5,2.3333333333333335
+MotorTapes-Shore,bass,Spleeter,3.4615384615384617,3.5
+MotorTapes-Shore,drums,Source Separation Wavenet,3.5,3.4615384615384617
+MotorTapes-Shore,drums,Spleeter,1.8333333333333333,2.75
+MotorTapes-Shore,vocals,D3Net,2.857142857142857,3.375
+MotorTapes-Shore,bass,Hybrid Demucs,2.7241379310344827,3.5714285714285716
+MotorTapes-Shore,vocals,Hybrid Demucs,3.1818181818181817,3.24
+Nerve9-PrayForTheRain,bass,Spleeter,3.642857142857143,3.5384615384615383
+Nerve9-PrayForTheRain,vocals,Hybrid Demucs,2.5833333333333335,3.5714285714285716
+Nerve9-PrayForTheRain,vocals,Spleeter,3.0,2.625
+Nerve9-PrayForTheRain,drums,D3Net,2.857142857142857,2.75
+Nerve9-PrayForTheRain,vocals,D3Net,2.6,2.7142857142857144
+Nerve9-PrayForTheRain,bass,Source Separation Wavenet,3.1666666666666665,3.25
+Nerve9-PrayForTheRain,bass,Hybrid Demucs,2.7222222222222223,2.9444444444444446
+Nerve9-PrayForTheRain,drums,Hybrid Demucs,1.6923076923076923,2.6923076923076925
+Nerve9-PrayForTheRain,bass,Demucs-Extra,1.8,3.2
+PatrickTalbot-AReasonToLeave,drums,Demucs-Extra,4.0,3.5714285714285716
+PatrickTalbot-AReasonToLeave,bass,Spleeter,2.75,3.625
+PatrickTalbot-AReasonToLeave,vocals,D3Net,2.111111111111111,2.3333333333333335
+PatrickTalbot-AReasonToLeave,vocals,Hybrid Demucs,2.8461538461538463,3.0
+PatrickTalbot-AReasonToLeave,drums,Spleeter,2.2857142857142856,4.714285714285714
+PatrickTalbot-AReasonToLeave,drums,Hybrid Demucs,3.2857142857142856,4.0
+PatrickTalbot-AReasonToLeave,bass,Source Separation Wavenet,1.75,2.25
+RaftMonk-Tiring,bass,Demucs-Extra,2.5,2.0
+RaftMonk-Tiring,drums,D3Net,4.0,3.8
+RaftMonk-Tiring,bass,Source Separation Wavenet,4.111111111111111,3.7777777777777777
+RaftMonk-Tiring,vocals,Source Separation Wavenet,3.5714285714285716,4.125
+RaftMonk-Tiring,vocals,Demucs-Extra,3.0,2.6666666666666665
+RaftMonk-Tiring,vocals,Hybrid Demucs,3.1666666666666665,3.2
+RaftMonk-Tiring,drums,Source Separation Wavenet,3.8333333333333335,2.3333333333333335
+RaftMonk-Tiring,vocals,Spleeter,2.5714285714285716,2.7142857142857144
+RaftMonk-Tiring,bass,Spleeter,2.6666666666666665,2.7142857142857144
+RaftMonk-Tiring,bass,Hybrid Demucs,3.380952380952381,3.652173913043478
+RaftMonk-Tiring,drums,Hybrid Demucs,3.5,3.8333333333333335
+RaftMonk-Tiring,drums,Spleeter,1.2857142857142858,4.142857142857143
+SambasevamShanmugam-Kaathaadi,drums,Demucs-Extra,2.7142857142857144,3.4285714285714284
+SambasevamShanmugam-Kaathaadi,vocals,Demucs-Extra,2.142857142857143,4.285714285714286
+SambasevamShanmugam-Kaathaadi,bass,Spleeter,2.909090909090909,3.3
+SambasevamShanmugam-Kaathaadi,bass,D3Net,3.769230769230769,2.25
+SambasevamShanmugam-Kaathaadi,bass,Demucs-Extra,4.25,4.111111111111111
+SambasevamShanmugam-Kaathaadi,vocals,Spleeter,2.7142857142857144,3.0
+SambasevamShanmugam-Kaathaadi,bass,Source Separation Wavenet,3.076923076923077,3.7857142857142856
+SambasevamShanmugam-Kaathaadi,drums,Spleeter,2.909090909090909,3.0
+Secretariat-OverTheTop,vocals,Spleeter,2.466666666666667,2.1176470588235294
+Secretariat-OverTheTop,bass,Demucs-Extra,1.5,2.0
+Secretariat-OverTheTop,bass,D3Net,2.5384615384615383,3.0
+Secretariat-OverTheTop,vocals,Source Separation Wavenet,2.6666666666666665,3.375
+Secretariat-OverTheTop,vocals,Demucs-Extra,3.0,2.857142857142857
+Secretariat-OverTheTop,bass,Hybrid Demucs,3.8,3.2857142857142856
+Secretariat-OverTheTop,drums,Demucs-Extra,2.25,2.8
+Secretariat-OverTheTop,vocals,D3Net,3.0,3.0
+SideEffectsProject-SingWithMe,bass,D3Net,3.0,3.0
+SideEffectsProject-SingWithMe,vocals,Spleeter,3.9,4.1
+SideEffectsProject-SingWithMe,drums,Demucs-Extra,2.3333333333333335,3.0
+SideEffectsProject-SingWithMe,bass,Demucs-Extra,2.0,3.625
+SideEffectsProject-SingWithMe,bass,Spleeter,2.5,2.7142857142857144
+SideEffectsProject-SingWithMe,drums,Hybrid Demucs,3.3636363636363638,4.181818181818182
+SideEffectsProject-SingWithMe,vocals,Source Separation Wavenet,3.3333333333333335,1.625
+SideEffectsProject-SingWithMe,vocals,Hybrid Demucs,1.8888888888888888,1.75
+SideEffectsProject-SingWithMe,drums,D3Net,4.142857142857143,4.0
+TheDopplerShift-Atrophy,bass,Hybrid Demucs,2.9444444444444446,2.6470588235294117
+TheDopplerShift-Atrophy,drums,Spleeter,2.6666666666666665,4.375
+TheDopplerShift-Atrophy,drums,Demucs-Extra,2.142857142857143,2.0
+TheDopplerShift-Atrophy,vocals,Source Separation Wavenet,3.5,3.2
+TheDopplerShift-Atrophy,bass,D3Net,2.2,2.473684210526316
+TheDopplerShift-Atrophy,bass,Demucs-Extra,3.888888888888889,3.0
+TheDopplerShift-Atrophy,vocals,Spleeter,1.6666666666666667,3.0
+TheEastonEllises-Falcon69,drums,Demucs-Extra,4.25,3.8
+TheEastonEllises-Falcon69,bass,D3Net,2.6153846153846154,2.2857142857142856
+TheEastonEllises-Falcon69,bass,Demucs-Extra,2.7777777777777777,3.4444444444444446
+TheEastonEllises-Falcon69,drums,Spleeter,3.857142857142857,2.857142857142857
+TheEastonEllises-Falcon69,drums,D3Net,2.4285714285714284,3.142857142857143
+TheEastonEllises-Falcon69,drums,Source Separation Wavenet,4.166666666666667,3.5
+TheEastonEllises-Falcon69,vocals,Hybrid Demucs,2.7777777777777777,2.411764705882353
+TheEastonEllises-Falcon69,drums,Hybrid Demucs,3.3333333333333335,2.1666666666666665
+TheEastonEllises-Falcon69,vocals,Source Separation Wavenet,3.533333333333333,3.588235294117647
+TheEastonEllises-Falcon69,bass,Hybrid Demucs,3.5,2.4285714285714284
+TheEastonEllises-Falcon69,vocals,Demucs-Extra,4.5,3.3333333333333335
+TheEastonEllises-Falcon69,bass,Source Separation Wavenet,3.625,3.0588235294117645
+TheEastonEllises-Falcon69,vocals,D3Net,3.3157894736842106,3.272727272727273
+TheLongWait-DarkHorses,vocals,Demucs-Extra,2.7142857142857144,2.5
+TheLongWait-DarkHorses,bass,Hybrid Demucs,3.875,3.7142857142857144
+TheLongWait-DarkHorses,vocals,Hybrid Demucs,2.875,2.7777777777777777
+TheLongWait-DarkHorses,bass,Source Separation Wavenet,3.5625,3.3
+TheLongWait-DarkHorses,vocals,Source Separation Wavenet,3.25,2.6
+TheLongWait-DarkHorses,bass,Spleeter,3.0,3.5714285714285716
+TheLongWait-DarkHorses,drums,Demucs-Extra,3.75,3.6
+TheLongWait-DarkHorses,vocals,D3Net,3.1818181818181817,3.9166666666666665
+TheLongWait-DarkHorses,drums,Source Separation Wavenet,2.2222222222222223,2.25
+TheLongWait-DarkHorses,vocals,Spleeter,4.142857142857143,3.066666666666667
+TheLongWait-DarkHorses,bass,Demucs-Extra,2.3333333333333335,2.0
+TheSunshineGarciaBand-ForIAmTheMoon,drums,Source Separation Wavenet,3.5,3.2
+TheSunshineGarciaBand-ForIAmTheMoon,bass,Spleeter,3.3333333333333335,3.3333333333333335
+TheSunshineGarciaBand-ForIAmTheMoon,vocals,Demucs-Extra,4.6,4.142857142857143
+TheSunshineGarciaBand-ForIAmTheMoon,vocals,Spleeter,3.2857142857142856,3.3076923076923075
+TheSunshineGarciaBand-ForIAmTheMoon,bass,Demucs-Extra,3.0,3.2
+TheSunshineGarciaBand-ForIAmTheMoon,drums,Demucs-Extra,3.3636363636363638,3.6666666666666665
+TheSunshineGarciaBand-ForIAmTheMoon,vocals,Source Separation Wavenet,3.0,3.5
+TheSunshineGarciaBand-ForIAmTheMoon,drums,Hybrid Demucs,3.0,2.6666666666666665
+TheSunshineGarciaBand-ForIAmTheMoon,bass,Source Separation Wavenet,3.0,1.8333333333333333
+TheSunshineGarciaBand-ForIAmTheMoon,drums,D3Net,4.2,1.8181818181818181
+TheSunshineGarciaBand-ForIAmTheMoon,bass,Hybrid Demucs,3.0,4.0
+Timboz-Pony,bass,D3Net,3.2,3.6
+Timboz-Pony,bass,Hybrid Demucs,2.5625,3.0714285714285716
+Timboz-Pony,drums,Demucs-Extra,2.3,2.3076923076923075
+Timboz-Pony,bass,Demucs-Extra,4.25,4.444444444444445
+Timboz-Pony,vocals,D3Net,3.142857142857143,2.1666666666666665
+Timboz-Pony,vocals,Hybrid Demucs,4.714285714285714,4.5
+Timboz-Pony,drums,D3Net,3.5714285714285716,4.0
+Timboz-Pony,vocals,Demucs-Extra,3.1666666666666665,2.4
+Timboz-Pony,bass,Spleeter,2.75,2.5714285714285716
+Triviulfeat.TheFiend-Widow,vocals,Spleeter,2.3333333333333335,2.5
+Triviulfeat.TheFiend-Widow,drums,Source Separation Wavenet,2.8333333333333335,3.769230769230769
+Triviulfeat.TheFiend-Widow,bass,Demucs-Extra,2.5555555555555554,2.4444444444444446
+Triviulfeat.TheFiend-Widow,bass,Source Separation Wavenet,2.7777777777777777,3.125
+Triviulfeat.TheFiend-Widow,bass,Hybrid Demucs,3.625,1.5
+Triviulfeat.TheFiend-Widow,vocals,D3Net,4.5,2.0
+Triviulfeat.TheFiend-Widow,vocals,Source Separation Wavenet,3.5,3.357142857142857
+WeFellFromTheSky-NotYou,drums,Hybrid Demucs,3.0357142857142856,3.4444444444444446
+WeFellFromTheSky-NotYou,drums,Spleeter,3.3333333333333335,3.4615384615384617
+WeFellFromTheSky-NotYou,bass,Hybrid Demucs,2.869565217391304,3.3043478260869565
+WeFellFromTheSky-NotYou,vocals,Hybrid Demucs,2.9166666666666665,3.0
+WeFellFromTheSky-NotYou,vocals,Spleeter,3.25,3.6
+WeFellFromTheSky-NotYou,drums,Demucs-Extra,3.3181818181818183,3.1818181818181817
+WeFellFromTheSky-NotYou,drums,Source Separation Wavenet,2.5,3.3333333333333335
+WeFellFromTheSky-NotYou,vocals,D3Net,1.75,3.2222222222222223
+WeFellFromTheSky-NotYou,bass,Spleeter,3.888888888888889,2.7777777777777777
+WeFellFromTheSky-NotYou,vocals,Demucs-Extra,2.8181818181818183,3.272727272727273
+WeFellFromTheSky-NotYou,vocals,Source Separation Wavenet,3.2,2.0
+Zeno-Signs,drums,Spleeter,4.333333333333333,3.875
+Zeno-Signs,vocals,Hybrid Demucs,3.4285714285714284,3.0
+Zeno-Signs,vocals,D3Net,2.3333333333333335,2.4444444444444446
+Zeno-Signs,bass,D3Net,2.0,2.7142857142857144
+Zeno-Signs,drums,Source Separation Wavenet,3.8,4.333333333333333
+Zeno-Signs,vocals,Spleeter,3.1666666666666665,4.0
+Zeno-Signs,drums,Hybrid Demucs,3.4375,3.1176470588235294
+Zeno-Signs,drums,D3Net,3.2,3.8
+Zeno-Signs,bass,Hybrid Demucs,3.3333333333333335,3.857142857142857
+Zeno-Signs,bass,Demucs-Extra,2.0,2.2857142857142856
