@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head></head>
-    <title>The Effect of PHase on Audio Quality Evaluation</title>
+    <title>The Effect of Phase on Audio Quality Evaluation</title>
     <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
     <script>
         function SubForm (){
@@ -49,23 +49,15 @@
                 </p>
             </div>
 
-            <h2>Evaluation</h2>
+            <h2>Recordings for Evaluation</h2>
             <form action="/subjective_evals.">
                 <table style="float:left">
-                    <tr>
-                        <th></th>
-                        <th class="text-center">Recording</th>
-                        <th class="text-center">Rating (1-5)</th>
-                    </tr>
                     <tr>
                         <td><b>1</b></td>
                         <td>
                             <audio controls>
                                 <source src="audio/demucs_original.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="demucs_original" name="demucs_original">
                         </td>
                     </tr>
                     <tr>
@@ -75,9 +67,6 @@
                                 <source src="audio/demucs_original_mix.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="demucs_original_mix" name="demucs_original_mix">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>3</b></td>
@@ -85,10 +74,6 @@
                             <audio controls>
                                 <source src="audio/demucs_synth.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="demucs_synth"
-                            name="demucs_synth">
                         </td>
                     </tr>
                     <tr>
@@ -98,10 +83,6 @@
                                 <source src="audio/demucs_griffin_lim.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="demucs_griffin_lim"
-                            name="demucs_griffin_lim">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>5</b></td>
@@ -109,10 +90,6 @@
                             <audio controls>
                                 <source src="audio/demucs_no_phase.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="demucs_no_phase"
-                            name="demucs_no_phase">
                         </td>
                     </tr>
 
@@ -123,10 +100,6 @@
                                 <source src="audio/mdx_original.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="mdx_original"
-                            name="mdx_original">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>7</b></td>
@@ -134,10 +107,6 @@
                             <audio controls>
                                 <source src="audio/mdx_original_mix.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="mdx_original_mix"
-                            name="mdx_original_mix">
                         </td>
                     </tr>
                     <tr>
@@ -147,28 +116,15 @@
                                 <source src="audio/mdx_synth.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="mdx_synth"
-                            name="mdx_synth">
-                        </td>
                     </tr>
                 </table>
                 <table style="display:inline-block">
-                    <tr>
-                        <th></th>
-                        <th class="text-center">Recording</th>
-                        <th class="text-center">Rating (1-5)</th>
-                    </tr>
                     <tr>
                         <td><b>9</b></td>
                         <td>
                             <audio controls>
                                 <source src="audio/mdx_griffin_lim.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="mdx_griffin_lim"
-                            name="mdx_griffin_lim">
                         </td>
                     </tr>
                     <tr>
@@ -177,10 +133,6 @@
                             <audio controls>
                                 <source src="audio/mdx_no_phase.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="mdx_no_phase"
-                            name="mdx_no_phase">
                         </td>
                     </tr>
                     
@@ -191,10 +143,6 @@
                                 <source src="audio/spleeter_original.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="spleeter_original"
-                            name="spleeter_original">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>12</b></td>
@@ -204,9 +152,6 @@
                             </audio>
                         </td>
                         <td>
-                            <input type="number" min="1" max="5" id="spleeter_original_mix"
-                            name="spleeter_original_mix">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>13</b></td>
@@ -214,10 +159,6 @@
                             <audio controls>
                                 <source src="audio/spleeter_synth.wav" type="audio/wav">
                             </audio>
-                        </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="spleeter_synth"
-                            name="spleeter_synth">
                         </td>
                     </tr>
                     <tr>
@@ -227,9 +168,6 @@
                                 <source src="audio/spleeter_griffin_lim.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="spleeter_griffin_lim" name="spleeter_griffin_lim">
-                        </td>
                     </tr>
                     <tr>
                         <td><b>15</b></td>
@@ -238,14 +176,6 @@
                                 <source src="audio/spleeter_no_phase.wav" type="audio/wav">
                             </audio>
                         </td>
-                        <td>
-                            <input type="number" min="1" max="5" id="spleeter_no_phase" name="spleeter_no_phase">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><button onclick="SubForm()">Submit</td>
                     </tr>
                 </table>
             </form>
