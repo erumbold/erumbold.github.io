@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>The Effect of PHase on Audio Quality Evaluation</title>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+    <script>
+        function SubForm (){
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/6wZvS5Zoh6WUyEEr/',
+                type:'post',
+                data:$("#myForm").serializeArray(),
+                success: function(){
+                  alert("Form Data Submitted :)")
+                },
+                error: function(){
+                  alert("There was an error :(")
+                }
+            });
+        }
+        </script>
+    <body>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <div class="container">
+            <h1 class="display-4 text-center">The Effect of Phase on Audio Quality Evaluation</h1>
+
+            <h5 class="text-center">Erika Rumbold | <a href="mailto:erumbold@uvic.ca?subject=Synthesizer Programming Project Subjective Evaluation">erumbold@uvic.ca</a> | Project for CSC 484D - Synthesizer Programming</h5>
+
+            <hr class="my-4">
+            <p></p>
+
+            <h2>Instructions</h2>
+            <div class="container">
+                <p>
+                    Please rate each of the bass recordings for their <b>recording quality</b> on a 1-5 scale where <b>1</b> is <b>Bad</b> and <b>5</b> is <b>Excellent</b>. This is <b><i>not</i></b> an evaluation of any musical properties, such as the melody. 
+                </p>
+                <p>
+                    It is strongly encouraged to use headphones or earbuds for this evaluation.
+                </p>
+                <p>
+                    As an example, this is a recording that would be rated as a <b>5</b>:
+                    <p>
+                    <audio controls>
+                        <source src="audio/gt_bass.wav" type="audio/wav">
+                    </audio>
+                    </p>
+                </p>
+            </div>
+
+            <h2>Evaluation</h2>
+            <form action="/subjective_evals.">
+                <table style="float:left">
+                    <tr>
+                        <th></th>
+                        <th class="text-center">Recording</th>
+                        <th class="text-center">Rating (1-5)</th>
+                    </tr>
+                    <tr>
+                        <td><b>1</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/demucs_original.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="demucs_original" name="demucs_original">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>2</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/demucs_original_mix.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="demucs_original_mix" name="demucs_original_mix">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>3</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/demucs_synth.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="demucs_synth"
+                            name="demucs_synth">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>4</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/demucs_griffin_lim.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="demucs_griffin_lim"
+                            name="demucs_griffin_lim">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>5</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/demucs_no_phase.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="demucs_no_phase"
+                            name="demucs_no_phase">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>6</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/mdx_original.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="mdx_original"
+                            name="mdx_original">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>7</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/mdx_original_mix.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="mdx_original_mix"
+                            name="mdx_original_mix">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>8</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/mdx_synth.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="mdx_synth"
+                            name="mdx_synth">
+                        </td>
+                    </tr>
+                </table>
+                <table style="display:inline-block">
+                    <tr>
+                        <th></th>
+                        <th class="text-center">Recording</th>
+                        <th class="text-center">Rating (1-5)</th>
+                    </tr>
+                    <tr>
+                        <td><b>9</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/mdx_griffin_lim.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="mdx_griffin_lim"
+                            name="mdx_griffin_lim">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>10</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/mdx_no_phase.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="mdx_no_phase"
+                            name="mdx_no_phase">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>11</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/spleeter_original.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="spleeter_original"
+                            name="spleeter_original">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>12</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/spleeter_original_mix.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="spleeter_original_mix"
+                            name="spleeter_original_mix">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>13</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/spleeter_synth.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="spleeter_synth"
+                            name="spleeter_synth">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>14</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/spleeter_griffin_lim.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="spleeter_griffin_lim" name="spleeter_griffin_lim">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>15</b></td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/spleeter_no_phase.wav" type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <input type="number" min="1" max="5" id="spleeter_no_phase" name="spleeter_no_phase">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button onclick="SubForm()">Submit</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
