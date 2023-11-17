@@ -13,47 +13,15 @@
             <hr class="my-4">
             <p></p>
 
-            <!-- Main Content -->
-            <h4>Update - November 6, 2023</h4>
-            <div>
-                <p>
-                    Overall, I am on target with the biweekly goals that were set in the Project Proposal. Since the last update, I've successfully adapted the <tt>scapy</tt> tutorial to log the data usage of a music streaming app. I've also recorded data from one experiment run.
-                </p>
-                <p>
-                    In each experiment, I'm recording the data usage while playing an 18-song album that is 75 minutes long. The data usage while streaming music can vary greatly depending on how many songs are played and the length of each song. Playing the same album on each streaming service serves as an experimental constant and eliminates such variability.
-                </p>
-                <p>
-                    Very few modifications need to be made to my code between experiments, so I should have enough time to run experiments for each service, both at the base level of audio quality as well as any higher quality options the streaming services offer.
-                </p>
-                <p>
-                    I've gotten several more responses to the survey, which is still open to responses.
-                </p>
-                <h5>Proposal Changes</h5>
-                <p>
-                    The Proposal document below will reflect these changes by November 13th.
-                    <ol>
-                        <li>Add YouTube Music as one of the observed streaming services</li>
-                        <li>Write the survey questions exactly as they appear in the survey</li>
-                        <li>Survey participants include classmates and personal friends.</li>
-                    </ol>
-                </p>
-            </div>
-            <h4>Update - October 23, 2023</h4>
-            <div>
-                <p>
-                    I have sent out a survey form to different groups of people for the subjective component of my project, and I have already received several responses. Although I don't expect to get enough responses to have statistical significance, I still believe it'll be enough to make general observations about what users may be looking for in a music streaming service. The survey can be found here (<a href="https://forms.gle/uJZGUikM5KXQHcZj8">https://forms.gle/uJZGUikM5KXQHcZj8</a>) and will remain open to responses until I need to analyze the data - most likely the week before the Demo is due.
-                </p>
-                <p>
-                    For the data logging component, I've decided to work in Python since it's my most proficient language. I found a tutorial (<a href="https://thepythoncode.com/article/make-a-network-usage-monitor-in-python">https://thepythoncode.com/article/make-a-network-usage-monitor-in-python</a>) that demonstrates how to make a network traffic monitor per process using the <tt>psutil</tt> and <tt>scapy</tt> libraries. Between this update and next, I plan to adapt the tutorial code to log the traffic from each service's desktop app while streaming music. Note: YouTube Music currently does not have a native desktop app available, so I will be logging traffic from my web browser instead.
-                </p>
-                <p>
-                    Although the streaming services don't all have desktop apps, they do all have iOS apps. I'm unsure how I'd be able to monitor the traffic from my phone at the moment, but I'll spend some time this week to find a possible solution. Ideally, I'd like to do these experiments on both a computer and a phone since people most often listen to music on their phones, moreso than on their computers. If I can't find a suitable method by next update, I'll focus on just the desktop experiments.
-                </p>
-            </div>
+            <h4>Table of Contents</h4>
+            <ol>
+                <li><a href="#project-proposal">Project Proposal</a></li>
+                <li><a href="#biweekly-1">Interim Update 1</a> - 10/23/23</li>
+                <li><a href="#biweekly-2">Interim Update 2</a> - 11/6/23</li>
+            </ol>
 
-            <br>
-            
-            <h4 id="project-proposal">Project Proposal - October 9, 2023 (revised November 13)</h4>
+            <!-- Main Content -->
+            <h5 id="project-proposal">Project Proposal - October 9, 2023 (revised November 13)</h5>
             <p>
                 In the current day in age, streaming services are the main means of consuming digital media - be it movies, TV, or music. As such, more and more services have emerged in competition with each other to gain our usership. For film and television, many streaming services feature exclusive content (e.g., Netflix original series) that make it worthwhile for users to subscribe to multiple. Music streaming services, however, host a lot of the same content, so users tend to choose one as their go-to streaming service. As consumers, we want to make informed decisions about how we spend our money, but it can be difficult to decide when there are so many streaming services to choose from. 
             </p>
@@ -88,6 +56,48 @@
                 <li>December 4: Data analysis completed (Demo due) </li>
                 <li>December 11: Final report due </li>
             </ul>
+
+            <br>
+
+            <h5 id="biweekly-1">Update - October 23, 2023</h5>
+            <div>
+                <p>
+                    I have sent out a survey form to different groups of people for the subjective component of my project, and I have already received several responses. Although I don't expect to get enough responses to have statistical significance, I still believe it'll be enough to make general observations about what users may be looking for in a music streaming service. The survey can be found here (<a href="https://forms.gle/uJZGUikM5KXQHcZj8">https://forms.gle/uJZGUikM5KXQHcZj8</a>) and will remain open to responses until I need to analyze the data - most likely the week before the Demo is due.
+                </p>
+                <p>
+                    For the data logging component, I've decided to work in Python since it's my most proficient language. I found a tutorial (<a href="https://thepythoncode.com/article/make-a-network-usage-monitor-in-python">https://thepythoncode.com/article/make-a-network-usage-monitor-in-python</a>) that demonstrates how to make a network traffic monitor per process using the <tt>psutil</tt> and <tt>scapy</tt> libraries. Between this update and next, I plan to adapt the tutorial code to log the traffic from each service's desktop app while streaming music. Note: YouTube Music currently does not have a native desktop app available, so I will be logging traffic from my web browser instead.
+                </p>
+                <p>
+                    Although the streaming services don't all have desktop apps, they do all have iOS apps. I'm unsure how I'd be able to monitor the traffic from my phone at the moment, but I'll spend some time this week to find a possible solution. Ideally, I'd like to do these experiments on both a computer and a phone since people most often listen to music on their phones, moreso than on their computers. If I can't find a suitable method by next update, I'll focus on just the desktop experiments.
+                </p>
+            </div>
+
+            <br>
+
+            <h5 id="biweekly-2">Update - November 6, 2023</h5>
+            <div>
+                <p>
+                    Overall, I am on target with the biweekly goals that were set in the Project Proposal. Since the last update, I've successfully adapted the <tt>scapy</tt> tutorial to log the data usage of a music streaming app. I've also recorded data from one experiment run.
+                </p>
+                <p>
+                    In each experiment, I'm recording the data usage while playing an 18-song album that is 75 minutes long. The data usage while streaming music can vary greatly depending on how many songs are played and the length of each song. Playing the same album on each streaming service serves as an experimental constant and eliminates such variability.
+                </p>
+                <p>
+                    Very few modifications need to be made to my code between experiments, so I should have enough time to run experiments for each service, both at the base level of audio quality as well as any higher quality options the streaming services offer.
+                </p>
+                <p>
+                    I've gotten several more responses to the survey, which is still open to responses.
+                </p>
+                <h5>Proposal Changes</h5>
+                <p>
+                    The Proposal document below will reflect these changes by November 13th.
+                    <ol>
+                        <li>Add YouTube Music as one of the observed streaming services</li>
+                        <li>Write the survey questions exactly as they appear in the survey</li>
+                        <li>Survey participants include classmates and personal friends.</li>
+                    </ol>
+                </p>
+            </div>
         </div>
     </body>
 
