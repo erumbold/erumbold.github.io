@@ -13,11 +13,13 @@
             <hr class="my-4">
             <p></p>
 
+            <!-- Table of Contents -->
             <h4>Table of Contents</h4>
             <ol>
                 <li><a href="#project-proposal">Project Proposal</a></li>
-                <li><a href="#biweekly-1">Interim Update 1</a> - 10/23/23</li>
-                <li><a href="#biweekly-2">Interim Update 2</a> - 11/6/23</li>
+                <li><a href="#biweekly-1">Interim Update 1</a> - October 23rd</li>
+                <li><a href="#biweekly-2">Interim Update 2</a> - November 6th</li>
+                <li><a href="#biweekly-3">Interim Update 3</a> - November 20th</li>
             </ol>
 
             <!-- Main Content -->
@@ -82,7 +84,7 @@
                     Overall, I am on target with the biweekly goals that were set in the project proposal. Since the last update, I've successfully adapted the <tt>scapy</tt> tutorial to log the data usage of a music streaming app. I've also recorded data from one experiment run.
                 </p>
                 <p>
-                    In each experiment, I'm recording the data usage while playing an 18-song album that is 75 minutes long ('X Infinity' by Watsky). The data usage while streaming music can vary greatly depending on how many songs are played and the length of each song. Playing the same album on each streaming service serves as an experimental constant and eliminates such variability.
+                    In each experiment, I'm recording the data usage while playing an 18-song album that is 75 minutes long (<i>X Infinity</i> by Watsky). The data usage while streaming music can vary greatly depending on how many songs are played and the length of each song. Playing the same album on each streaming service serves as an experimental constant and eliminates such variability.
                 </p>
                 <p>
                     Very few modifications need to be made to my code between experiments, so I should have enough time to run experiments for each service, both at the base level of audio quality as well as any higher quality options the streaming services offer.
@@ -98,6 +100,45 @@
                         <li>Write the survey questions exactly as they appear in the survey</li>
                         <li>Survey participants include classmates and personal friends</li>
                     </ol>
+                </p>
+            </div>
+
+            <br>            
+
+            <h5 id="biweekly-3">Update - November 20, 2023</h5>
+            <div>
+                <h6>Experiment</h6>
+                <p>
+                    I have completed all of the network logging trials, as planned in the project proposal. Covering the different quality levels offered by each of the five streaming services, 13 trials were completed to record the data used when streaming <i>X Infinity</i>.
+                </p>
+                <div style="width: 100%;">
+                    <div style="width: 50%; float: left;">
+                        <p>
+                            During these trials, I realized that some streaming services define their quality level options by data rate (e.g., 128 kbit/s), while others are defined by the recording quality (i.e., bit depth and sample rate). For the latter, songs that were recorded at a lower quality won't necessarily be improved, or use more data, when streamed with a higher quality setting active. For example, Tidal's <tt>Max</tt> setting is capable of supporting audio up to 24-bit, 192kHz; <i>X Infinity</i> is only available at 16-bit, 44.1kHz - the same settings as Tidal's <tt>High</tt> quality option. This means, Tidal will only play <i>X Infinity</i> at <tt>High</tt> quality.
+                        </p>
+                        <p>
+                            Tidal and Amazon Music label music that is capable of being played at their highest quality setting, <tt>Max</tt> and <tt>Ultra HD</tt>, respectively. To fully see the capabilities of these top-tier settings, I ran additional trials using albums that have those labels.
+                        </p>
+                    </div>
+                    <div style="margin-left:50%;">
+                        <img src="img/tidal_quality_settings.jpg" alt="Tidal quality settings menu. Max quality is selected. Currently playing: 16-bit 44.1kHz FLAC">
+                    </div>
+                </div>
+                          
+                <h6>Initial Observations</h6>
+                <p>
+                    This week will be dedicated to analysis and visualization of the collected data, both from the data usage experiment and the user study. As such, I haven't gone fully in depth with the data quite yet, but I can comment on some initial observations. 
+                </p>
+                <p>For the experiments, Spotify transmitted the least data of all five streaming services, and Tidal the most. Also, Spotify is the most used and most preferred service by those who responded to the user study (21 participants). However, I presume this is mostly due to Spotify being the oldest of these music streaming services; several participants noted that they've only tried Spotify, having no interest in trying any other services as they emerged.</p>
+
+                <h6>Setbacks</h6>
+                <p>
+                    Unfortunately, I wasn't able to find a way to log data usage from a mobile device. And if I had, I'm not sure I would've had enough time to execute those trials for this project. Perhaps this could be future work by myself or someone else who's interested.
+                </p>
+                
+                <h6>Next Steps</h6>
+                <p>
+                    As mentioned above, I plan to spend this week doing data analysis and visualization. Then, the next week will be dedicated to recording my demo video and creating an outline for the final project report.
                 </p>
             </div>
         </div>
